@@ -1,11 +1,16 @@
 var navElement = document.getElementsByClassName("navbar")[0];
 
-window.addEventListener('scroll', () => {
-    const scrolled = document.scrollingElement.scrollTop;
+window.addEventListener('scroll', scrollListener);
+window.addEventListener('load', scrollListener);
 
-    if(scrolled > 0) {
+function scrollListener() {
+    if(hasScrolled()) {
         navElement.classList.add("bg-secondary");
     } else {
         navElement.classList.remove("bg-secondary");
     }
-})
+}
+
+function hasScrolled() {
+    return document.scrollingElement.scrollTop > 0;
+}
