@@ -58,11 +58,23 @@
     width: 5rem;
 }
 
-.bg--color-light-green {
-    background-color: rgb(141, 255, 141);
-}
-
 .text--align-justify {
     text-align: justify;
     text-align-last: center;
+}
+
+.margin--l-m250px {
+    margin-right: -250px;
+}
+
+.text--color-gray {
+    color: gray!important;
+}
+
+.bg--color-light-green {
+    background-color: rgb(229, 242, 212);
+}
+
+.text--color-dark-green {
+    color: rgb(135, 186, 62);
 }
