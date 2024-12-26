@@ -1,3 +1,5 @@
+@import "./custom.style.scss";
+
 .header {
     background-image: url('https://cdn.stocksnap.io/img-thumbs/960w/airplane-travel_TMYUIRV0BQ.jpg');
     background-size: cover;
@@ -41,6 +43,14 @@
     font-size: 10pt!important;
 }
 
+.margin--ts-2rem {
+    margin-top: 2rem;
+}
+
+.margin--s-n27rem {
+    margin-inline-start: -27rem;
+}
+
 .margin-t-3rem {
     margin-top: 3rem;
 }
@@ -77,4 +87,11 @@
 
 .text--color-dark-green {
     color: rgb(135, 186, 62);
+}
+
+.text--between-quotes::before {
+    content: '"';
+}
+.text--between-quotes::after {
+    content: '"';
 }
