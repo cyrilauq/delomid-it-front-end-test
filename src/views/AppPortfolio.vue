@@ -1,12 +1,13 @@
 <template>
-    <section id="portfolio" class="d-flex flex-wrap justify-content-evenly">
+    <section id="portfolio" class="d-flex flex-wrap justify-content-evenly overflow-hidden">
         <div class="col-sm-5 margin-t-3rem">
             <p class="m-0 text--color-gray">All the projects</p>
             <h2 class="text-uppercase margin-b-3rem">portfolio</h2>
             <AppPortfolioList :sites="sites" />
         </div>
         <img class="position-relative margin--l-m250px"
-            src="https://img.freepik.com/free-vector/laptop-realistic_78370-511.jpg?semt=ais_hybrid">
+            src="https://img.freepik.com/free-vector/laptop-realistic_78370-511.jpg?semt=ais_hybrid"
+            alt="portfolio compouter image">
     </section>
 </template>
 <script>

@@ -1,17 +1,19 @@
 <template>
     <section id="contact" class="col-sm-10 mx-auto text-center margin-b-3rem">
         <h2 class="text-uppercase margin-t-3rem margin-b-3rem">contact</h2>
-        <blockquote class="blockquote col-sm-6 mx-auto">
+        <figure>
+            <blockquote class="blockquote col-sm-6 mx-auto">
             <p class="text--color-gray text--between-quotes">I think design would be better if designers were much more
                 skeptical about its applications. If you believe in the potency of your craft, where you choose to dole
                 it out
                 is nout something to take lightly.</p>
-        </blockquote>
-        <figcaption class="blockquote-footer col-sm-6 mx-auto text-capitalize margin-b-3rem">
-            frank chimero
-        </figcaption>
+            </blockquote>
+            <figcaption class="blockquote-footer col-sm-6 mx-auto text-capitalize margin-b-3rem">
+                frank chimero
+            </figcaption>
+        </figure>
 
-        <form class="d-flex justify-content-center" id="newsletter-form" @submit="onNewsLetterFormSubmitted">
+        <form class="d-flex justify-content-center flex-column flex-sm-row" id="newsletter-form" @submit="onNewsLetterFormSubmitted">
             <label for="email" class="form-label col-sm-4 text-start fs-5">Subscribe to our newsletter</label>
             <div class="d-flex bg-body-secondary col-sm-4">
                 <span class="input-group-text border border-0 bg-transparent" id="basic-addon1">

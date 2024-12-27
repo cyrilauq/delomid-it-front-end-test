@@ -9,10 +9,10 @@ export default {
     components: { AppPortfolioListItem },
     props: {
         sites: {
-            type: [],
+            type: Array,
             required: true
         }
-    }
+    },
 }
 </script>
 <style lang="">
