@@ -13,7 +13,7 @@
             </figcaption>
         </figure>
 
-        <form class="d-flex justify-content-center flex-column flex-sm-row" id="newsletter-form" @submit="onNewsLetterFormSubmitted">
+        <form class="d-flex justify-content-center flex-column flex-sm-row w-100" id="newsletter-form" @submit="onNewsLetterFormSubmitted">
             <label for="email" class="form-label col-sm-4 text-start fs-5">Subscribe to our newsletter</label>
             <div class="d-flex bg-body-secondary col-sm-4">
                 <span class="input-group-text border border-0 bg-transparent" id="basic-addon1">
@@ -28,7 +28,7 @@
                 <span id="email_error" class="text-danger w-100 margin--s-n27rem position-absolute margin--ts-2rem"
                     v-if="emailHasError">The provided email is not a valid email</span>
             </div>
-            <button class="text-capitalize btn btn-success">send</button>
+            <button class="text-capitalize btn btn-success col-sm-1">send</button>
         </form>
     </section>
 </template>

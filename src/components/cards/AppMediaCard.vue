@@ -1,5 +1,5 @@
 <template>
-    <AppCard :title="title" :description="description" class="card-media">
+    <AppCard :title="title" :description="description" class="border-0">
         <a href="#"
             class="rounded-circle text--color-dark-green icon--size-5 bg--color-light-green d-flex align-items-center justify-content-center align-self-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" :class="iconClasses"
