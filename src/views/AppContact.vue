@@ -1,6 +1,6 @@
 <template>
-    <section id="contact" class="col-sm-10 mx-auto text-center margin-b-3rem">
-        <h2 class="text-uppercase margin-t-3rem margin-b-3rem">contact</h2>
+    <section id="contact" class="col-sm-10 mx-auto text-center d-flex align-items-center justify-content-center flex-column min-vh-100">
+        <h2 class="text-uppercase margin-b-3rem">contact</h2>
         <figure>
             <blockquote class="blockquote col-sm-6 mx-auto">
             <p class="text--color-gray text--between-quotes">I think design would be better if designers were much more

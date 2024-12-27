@@ -1,5 +1,5 @@
 <template>
-    <section id="portfolio" class="d-flex flex-wrap justify-content-evenly overflow-hidden">
+    <section id="portfolio" class="d-flex flex-row align-items-center min-vh-100 flex-wrap justify-content-evenly overflow-hidden">
         <div class="col-sm-5 margin-t-3rem">
             <p class="m-0 text--color-gray">All the projects</p>
             <h2 class="text-uppercase margin-b-3rem">portfolio</h2>

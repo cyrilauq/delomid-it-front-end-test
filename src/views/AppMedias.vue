@@ -1,7 +1,7 @@
 <template>
 
 <section id="medias"
-    class="vw-100 d-flex flex-column justify-content-center flex-column align-items-center text-center">
+    class="vw-100 d-flex flex-column min-vh-100 justify-content-center flex-column align-items-center text-center">
     <img class="margin-t-3rem"
       src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Cartoon_Multiple_Online_Video_Streaming_Devices.svg">
     <h2 class="text-uppercase col-sm-5">medias</h2>

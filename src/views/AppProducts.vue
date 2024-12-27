@@ -1,6 +1,6 @@
 <template>
     <section id="products"
-        class="vw-100 d-flex flex-column justify-content-center flex-column align-items-center text-center">
+        class="vw-100 d-flex flex-column justify-content-center flex-column align-items-center text-center min-vh-100">
         <h2 class="text-capitalize margin-t-3rem">our products</h2>
         <p class="text-secondary col-sm-5 margin-b-3rem">Far far away, behing the word mountains, far from the contries
             Vokalia and Consonantia, there live the blind texts</p>
